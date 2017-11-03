@@ -5,12 +5,13 @@ import { AppComponent } from './app.component';
 import { CommonModule } from "@angular/common";
 import {AuthorsComponent} from './authors.component'
 import {AutoGrowDirective} from './auto-grow.directive'
+import {FormsModule} from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent, CoursesComponent, AuthorsComponent, AutoGrowDirective
   ],
   imports: [
-    BrowserModule, CommonModule
+    BrowserModule, CommonModule, FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
